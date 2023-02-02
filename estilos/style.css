@@ -7,7 +7,12 @@ body{
     width: 100vw;
     background-color: rgb(34, 34, 255);
 }
-    
+footer{
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    align-items: end;
+}
 main{
     width: 100vw;
     height: 100vh;
