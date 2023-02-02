@@ -15,6 +15,7 @@ main{
 }
 section#login{
     overflow: hidden;
+    border: 0px 0px 0px rgba(0, 0, 0, 0.515);
     background-color: white;
     width: 250px;
     height: 500px;
@@ -25,7 +26,12 @@ section#login{
     transform: translate(-50,-50%);
 }
 section#login div#imagem{
+    display: block;
     background-image:  url(../imagens/Imagem\ da\ tela\ de\ login.jpg);
     background-size: cover;
     height: 200px;
+}
+section#login div#formulário{
+    display: block;    
+    padding:10px;
 }
