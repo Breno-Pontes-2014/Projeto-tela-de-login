@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #0400ff, #5f2c82);
     }
 
     section#login {
