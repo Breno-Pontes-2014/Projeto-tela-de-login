@@ -40,7 +40,9 @@ section#login > div#imagem {
     background-repeat: no-repeat;
     height: 200px;
 }
-
+section#login > p{
+    padding-right: 5px;
+}
 section#login > div#formulario {
     display: block;
     padding: 10px;
