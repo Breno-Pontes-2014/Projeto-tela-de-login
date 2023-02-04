@@ -19,9 +19,21 @@
             </div>
             <div id="formulário">
                 <h1>Cadastro</h1>
-                <form action="curiosidades.html" method="post">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="ilogin" placeholder="E-mail" autocomplete="email" required maxlength="30">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="botao">
+                        Esqueci a senha <i class="material-icons">mail</i>
+                    </a>
                 </form>
             </div>
         </section>
