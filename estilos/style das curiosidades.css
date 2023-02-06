@@ -3,3 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+ul > li{
+    padding: 5px 0px;
+    text-decoration: none;
+}
